@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/img/fleur.png" rel="icon">
+    <link
+    
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="mobile-nav">
+        <div class="close">
+          <i onclick="toggleMobileNav()" class="fa-solid fa-xmark fa-xl"></i>
+        </div>
+        <ul class="mobile-menu">
+          <li onclick="toggleMobileNav()">Home</li>
+          <li onclick="toggleMobileNav()">Collection</li>
+          <li onclick="toggleMobileNav()">About</li>
+          <li onclick="toggleMobileNav()">Contact</li>
+        </ul>
+      </div>
+      <nav>
+        <a href="index.html"><div class="logo">this interior</div></a>
+        <ul class="menu">
+          <li>Home</li></a>
+          <li>Collection</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+        <div class="hamburger" onclick="toggleMobileNav()">
+          <i class="fa-solid fa-bars fa-xl"></i>
+        </div>
+      </nav>
+      <header>
+        <div class="details">
+          <p class="heading">Modern interior</p>
+          <p class="text">
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <p class="action">Read more &#8594;</p>
+        </div>
+        <div class="showcase">
+          <img src="./assets/img/photo1.png" alt="interior design showcase" />
+          <div class="profile">
+            <div class="designer">
+              <div class="designer-img">
+                <img src="./assets/img/photo2.png" alt="" />
+              </div>
+              <div class="designer-description">
+                <p>Aliza Webber</p>
+                <p>Interior Designer</p>
+              </div>
+            </div>
+            <div class="designer-details">
+              Designed in 2020 by <br />
+              Aliza Webber
+            </div>
+          </div>
+        </div>
+      </header>
+      <footer>
+        created by <a href="https://github.com/YOUGBOY95">YOUGBOY95</a>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
